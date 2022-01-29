@@ -1,0 +1,21 @@
+/* pages/enroll/index.wxss */
+.header{width:750rpx;height:90rpx;border:1px solid rgb(123, 181, 236);background-color: white;}
+.hdCon navigator{height:85rpx;}
+.hdCon image{height:100%;}
+
+.container1 image{width: 100%;height:300rpx;}
+
+.container11{width:90%;height:300rpx;background-color:rgb(245, 223, 184);display: flex;margin: 0.5cm 0.5cm 0 0.5cm;box-sizing:border-box;}
+.container111{width:20000rpx;height:270rpx;background-color:rgb(248, 218, 166);margin: 0.2cm 0.1cm;box-sizing:border-box;}
+
+.container12{width:90%;height:300rpx;background-color:rgb(245, 223, 184);display: flex;margin: 0.5cm 0.5cm 0 0.5cm;box-sizing:border-box;}
+.container121{width:20000rpx;height:270rpx;background-color:rgb(248, 218, 166);margin: 0.2cm 0.1cm;box-sizing:border-box;display: flex;}
+.container121 image{width:2.5cm;height:3.5cm;}
+
+
+.container13{width:90%;height:300rpx;background-color:rgb(245, 223, 184);display: flex;margin: 0.5cm 0.5cm 0 0.5cm;box-sizing:border-box;}
+.container131{width:20000rpx;height:270rpx;background-color:rgb(248, 218, 166);margin: 0.2cm 0.1cm;box-sizing:border-box;}
+
+.container14{width:90%;height:300rpx;background-color:rgb(245, 223, 184);display: flex;margin: 0.5cm 0.5cm 0 0.5cm;box-sizing:border-box;}
+.container141{width:20000rpx;height:270rpx;background-color:rgb(248, 218, 166);margin: 0.2cm 0.1cm;box-sizing:border-box;display: flex;}
+.container141 image{width:2.5cm;height:3.5cm;}

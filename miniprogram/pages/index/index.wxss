@@ -1,0 +1,32 @@
+view{
+  /* 使用主题颜色 */
+  /*color:var(--themeColor);*/
+}
+.pubTitle{display: flex;justify-content: space-between;height:60rpx;align-items: center;}
+.pubTitle .txt{font-size:40rpx;height:100%;position:relative;padding-left:20rpx;}
+.pubTitle .txt::before{display:block;width:10rpx;height:50rpx;background-color: rgb(86, 193, 243);content:"";position: absolute;left:0;top:25%;margin-top:-13rpx;}
+.pubTitle .more{font-size: 25rpx;color:#666;}
+
+.header{width:750rpx;height:90rpx;border:1px solid rgb(123, 181, 236);background-color: white;}
+.hdCon navigator{height:85rpx;}
+.hdCon image{height:100%;}
+.banner{width:100%;height:300rpx;border:px solod green;}
+.banner image{width: 100%;height:300rpx;}
+
+/*预约模块*/
+.order{background-color: #f0f3f8;padding:50rpx 0 30rpx;}
+.order1 .box{width:100%;height:300rpx;background-color:white;margin-top: 0.5cm;display: flex;}
+.order1 image{width: 300rpx;height:250rpx;padding:15rpx 0 20rpx 10rpx;}
+.order1 .right{padding: 30rpx 20rpx 0 0rpx;}
+.order1 .txt1{margin-left:0.5cm;font-size:0.4cm;} 
+.order1 .txt2{margin-left:0.5cm;color:darkgray;font-size: 0.3cm;} 
+.order1 .btn{background-color:rgb(108, 201, 245);}
+.rigrh button{padding-bottom: 5cm;}
+/*公开课模板*/
+.class{background-color: #f0f3f8;padding:10rpx 0 20rpx;}
+.class1 .box{width:100%;height:300rpx;background-color:white;margin-top: 0.5cm;display: flex;}
+.class2 .box{width:100%;height:300rpx;background-color:white;margin-bottom: 0.5cm;display: flex;}
+.class1 image{width:270rpx;height:270rpx;padding:20rpx 0 0 10rpx;}
+.class2 image{width:270rpx;height:270rpx;padding:20rpx 0 0 10rpx;}
+.class1 .txt1{padding:30rpx 0 0 20rpx;}
+.class2 .txt1{padding:30rpx 0 0 20rpx;}

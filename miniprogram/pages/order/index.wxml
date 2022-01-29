@@ -1,0 +1,54 @@
+<!--pages/order/index.wxml-->
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo">
+      <image mode="heightFix" src="/images/5.jpg"/>
+    </navigator>
+  </view>
+</view>
+
+<view class="container1" style="background-color:rgb(222, 247, 226);height:22cm;">
+  <image src="/images/111.jpeg"/>
+  <text style="font-size: small;padding:0 20rpx;color:darkgray;">请填写预约信息，我们会尽快和您联系!</text>
+
+  <view class="name" style="padding:0 20rpx;box-sizing:border-box;">
+   <view class="name1">姓名:</view>
+    <input class="input" placeholder="请输入姓名" style="background-color:white;height:0.7cm;margin-top:0.2cm;margin-bottom: 0.2cm;"/>
+  </view>
+
+  <view class="sex" style="padding:0 20rpx;box-sizing:border-box;">
+    <view class="sex-title">性别：</view>
+      <radio-group name="radio" style="height:0.7cm;margin-top:0.2cm;margin-bottom: 0.2cm;">
+        <label><radio value="radio1"/>男</label>
+        <label><radio value="radio2"/>女</label>
+      </radio-group>
+  </view>
+
+  <view class="wrapper" style="padding:0 20rpx;box-sizing:border-box;">
+   <view class="wrapper1">学院:</view>
+    <input class="input" placeholder="请输入所属学院" style="background-color:white;height:0.7cm;margin-top:0.2cm;margin-bottom: 0.2cm;"/>
+  </view>
+
+  <view class="class" style="padding:0 20rpx;box-sizing:border-box;">
+   <view class="class1">班级:</view>
+    <input class="input" placeholder="请输入班级" style="background-color:white;height:0.7cm;margin-top:0.2cm;margin-bottom: 0.2cm;"/>
+  </view>
+
+  <view class="phonenumber" style="padding:0 20rpx;box-sizing:border-box;">
+    <view class="phonenumber-title">联系方式：</view>
+        <input class="weui-input" maxlength="11" placeholder="请输入手机号码" style="background-color:white;height:0.7cm;margin-top:0.2cm;margin-bottom: 0.2cm;"/>
+  </view>
+  
+  <view class="liuyan" style="padding:0 20rpx;box-sizing:border-box;">
+   <view class="liuyan1">留言内容:</view>
+    <input class="input" placeholder="请输入···" style="background-color:white;height:5cm;margin-top:0.2cm;margin-bottom: 0.2cm;"/>
+  </view>
+
+  <view class="but">
+    <view class="btn-area" style="padding-left: 25%;">
+        <button style="margin: 30rpx 0" type="primary" formType="submit" bindtap="goto">提交</button>
+        <button style="margin: 30rpx 0" formType="reset">重置</button>
+    </view>
+  </view>
+</view>
+

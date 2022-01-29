@@ -1,0 +1,74 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo">
+      <image mode="heightFix" src="/images/5.jpg"/>
+    </navigator>
+  </view>
+</view>
+
+<view class="banner">
+  <swiper indicator-dots 	indicator-color="rgba(255,255,255,0.5)"  indicator-active-color="#fff" circular autoplay interval="4000">
+    <swiper-item><image src="/images/1.jpg"/></swiper-item>
+    <swiper-item><image src="/images/2.jpg"/></swiper-item>
+    <swiper-item><image src="/images/3.jpg"/></swiper-item>
+  </swiper>
+</view>
+
+<view class="order">
+ <view class="container">
+  <view class="pubTitle">
+    <view class="txt">预约咨询</view>
+  </view>
+      <view class="order1">
+        <navigator class="box">
+           <image src="/images/logo1.jpg"/>
+           <view class="right">
+            <view class="txt1">学生心理健康教育中心（高新校区）</view>
+            <view class="txt2">高新校区明德楼</view>
+            <view class="txt2">QQ:xxxxxx   手机号:xxxxxxxx</view>
+            <button class="btn" style="width:200rpx;height:60rpx;padding:5rpx;color:aliceblue;" bindtap="goto">立即预约</button>
+          </view>
+        </navigator>
+      </view>
+ </view>
+</view>
+
+<view class="class">
+ <view class="container">
+  <view class="pubTitle">
+    <view class="txt">心理公开课</view>
+      <navigator class="more" url="/pages/enroll/index">更多></navigator>
+  </view>
+      <view class="class1">
+        <navigator class="box">
+          <view class="pic">
+            <image src="/images/class2.png"/>
+          </view>
+          <view class="txt">
+            <view class="txt1">疫情下大学生心理健康讲座</view>
+            <view class="txt1" style="font-size: small;color:darkgray">主讲教师：**</view>
+            <view class="txt1"style="font-size: small;">课程介绍：**</view>
+            <view class="txt1" style="font-size: small;">时间：2022-2-10 19:00-20:00</view>
+          </view>
+        </navigator>
+      </view>
+ </view>
+</view>
+
+<view class="class">
+ <view class="container">
+      <view class="class2">
+        <navigator class="box">
+          <view class="pic">
+            <image src="/images/class2.png"/>
+          </view>
+          <view class="txt">
+            <view class="txt1">疫情下大学生心理健康讲座</view>
+            <view class="txt1" style="font-size: small;color:darkgray">主讲教师：**</view>
+            <view class="txt1"style="font-size: small;">课程介绍：**</view>
+            <view class="txt1" style="font-size: small;">时间：2022-2-10 19:00-20:00</view> 
+          </view>
+        </navigator>
+      </view>
+ </view>
+</view>

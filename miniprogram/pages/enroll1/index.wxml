@@ -1,0 +1,12 @@
+<!--pages/enroll1/index.wxml-->
+<view class="header" style="width:750rpx;height:90rpx;border:1px solid rgb(123, 181, 236);background-color: white;">
+  <view class="container hdCon">
+    <navigator class="logo" style="height:85rpx;">
+      <image mode="heightFix" src="/images/5.jpg" style="height:100%;"/>
+    </navigator>
+  </view>
+</view>
+
+<view style="background-color:rgb(245, 233, 184);">请准时进入腾讯会议：673857672</view>
+<view class="container1" style="background-color:rgb(245, 233, 184);height:18cm;font-size: larger;padding: 5cm;">报名成功<image src="/images/gou.jpg" style="width:0.5cm;height:0.5cm;"/></view>
+

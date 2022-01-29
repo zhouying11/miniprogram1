@@ -1,0 +1,6 @@
+/* pages/order/index.wxss */
+.header{width:750rpx;height:90rpx;border:1px solid rgb(123, 181, 236);background-color: white;}
+.hdCon navigator{height:85rpx;}
+.hdCon image{height:100%;}
+
+.container1 image{width: 100%;height:300rpx;}

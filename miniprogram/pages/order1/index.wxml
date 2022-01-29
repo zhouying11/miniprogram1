@@ -1,0 +1,11 @@
+<!--pages/order1/index.wxml-->
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo">
+      <image mode="heightFix" src="/images/5.jpg"/>
+    </navigator>
+  </view>
+</view>
+
+<view class="container1" style="background-color:rgb(222, 247, 226);height:18cm;font-size: larger;">提交成功<image src="/images/gou.jpg"/></view>
+

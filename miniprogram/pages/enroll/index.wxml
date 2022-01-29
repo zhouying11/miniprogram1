@@ -1,0 +1,67 @@
+<!--pages/enroll/index.wxml-->
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="logo">
+      <image mode="heightFix" src="/images/5.jpg"/>
+    </navigator>
+  </view>
+</view>
+
+<view class="container1" style="background-color:rgb(253, 241, 208);height:26cm;">
+ <image src="/images/112.jpeg"/>
+ <view>
+ <view class="container11">
+   <text style="font-size:0.6cm;padding-left: 0.2cm;padding:1.1cm 0.1cm 0 0.2cm;">简介</text>
+   <view class="container111">
+     <view style="font-size: 0.4cm;padding:0.1cm 0 0 0.2cm;">疫情下大学生宿舍人际关系建设</view>
+     <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">课程介绍·······</view>
+     <view style="padding-top:1cm;">
+      <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">课程时间：2022-2-10 19:00-20:00</view>
+      <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">课程地点：腾讯会议（**********）</view>
+      <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">已参加人数：68人</view>
+     </view>
+   </view>
+ </view>
+
+ <view class="container12">
+  <text style="font-size:0.6cm;padding-left: 0.2cm;padding:0.8cm 0.1cm 0 0.2cm;">主讲人</text>
+   <view class="container121">
+    <image src="/images/man.jpeg"/>
+    <view class="text">
+     <view style="font-size: 0.4cm;padding:0.1cm 0 0 0.2cm;">张三</view>
+     <view style="font-size: 0.4cm;padding:0.1cm 0 0 0.2cm;">副教授</view>
+     <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">人物介绍·······</view>
+    </view>
+   </view>
+ </view>
+ <button class="btn" style="width:200rpx;height:60rpx;padding:5rpx;margin-top:0.5cm;background-color:rgb(241, 170, 123);color:aliceblue;" bindtap="goto">立即报名</button>
+ </view>
+
+
+ <view>
+ <view class="container13">
+  <text style="font-size:0.6cm;padding-left: 0.2cm;padding:1.1cm 0.1cm 0 0.2cm;">简介</text>
+   <view class="container131">
+     <view style="font-size: 0.4cm;padding:0.1cm 0 0 0.2cm;">疫情下大学生宿舍人际关系建设</view>
+     <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">课程介绍·······</view>
+     <view style="padding-top:1cm;">
+      <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">课程时间：2022-2-10 19:00-20:00</view>
+      <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">课程地点：腾讯会议（**********）</view>
+      <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">已参加人数：68人</view>
+     </view>
+   </view>
+ </view>
+ <view class="container14">
+  <text style="font-size:0.6cm;padding-left: 0.2cm;padding:0.8cm 0.1cm 0 0.2cm;">主讲人</text>
+   <view class="container141">
+    <image src="/images/man.jpeg"/>
+    <view class="text">
+     <view style="font-size: 0.4cm;padding:0.1cm 0 0 0.2cm;">张三</view>
+     <view style="font-size: 0.4cm;padding:0.1cm 0 0 0.2cm;">副教授</view>
+     <view style="font-size: 0.3cm;padding:0.1cm 0 0 0.2cm;">人物介绍·······</view>
+    </view>
+   </view>
+ </view>
+</view>
+<button class="btn" style="width:200rpx;height:60rpx;padding:5rpx;margin-top:0.5cm;background-color:rgb(241, 170, 123);color:aliceblue;" bindtap="goto1">立即报名</button>
+ </view>
